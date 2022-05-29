@@ -115,10 +115,17 @@ The fonts were chosen as they are complementary with each other aesthetically an
 
 
 ## Testing
+
+### HTML & CSS Validator
+At the and of the project I used two websites to validate all code:
+<ul>
+<li>W3C CSS Validator to validate CSS https://jigsaw.w3.org/css-validator/</li>
+<li>Nu Html Checker to test HTML https://validator.w3.org/</li>
+
 ### Lighthouse Testing (Google Web Developer Tools)
 <ul>
 <li>
-Index.html Desktop score 
+Index.html Desktop score  
 ![](assets/images/test1.jpg)
 </li>
 <li>
@@ -262,6 +269,15 @@ To create a Local Clone
 </ol>
 
 ## Bugs detected 
+<ul>
+<li>HTML and CSS validator errors are now all fixed and validated</li>
+<li>My padding was wrongly done in some part of the website and unicorn revealer was recommended to me and I found it very useful and will be using it in my future projects until I get a better understanding of the layout. </li>
+<li>Media Queries at different sizes need to be taken account of and I find that I will start building for mobile first and then add media queries for wider screen sizes.</li>
+<li>The padding for the youtube videos were quite hard to figure out as the videos were stuck together. I then made the width 100% and it added appropriate separation in the videos.</li>
+<li>The height of the first embedded Tiktok video in the Repurpose and Gifting section part of tutorials.html is not on the same level of alignment as the rest of the videos, it sits slightly below and unfortunately, I have not been able to figure it out yet. I hope to solve this bug in the future. </li>
+<li>I learnt through the HTML Validator that the button type cannot be a descendant of an anchor and hence I had to change my button to a paragraph and style it as a class in CSS to look like the button.</li>
+<li>I have to figure out how to align my boxes in the contact form.</li>
+</ul>
 
 ## Future Functionalities
 Due to time and resource constraints, I was not able to implement everything that I had envisioned and will add future features later as my skills grow and refine.
@@ -269,6 +285,9 @@ Due to time and resource constraints, I was not able to implement everything tha
 Future Functionalities I would like to implement:
 <ul>
 <li>A feature within the main gallery allowing the users to view the photos individually when clicked on, with zoom capabilities.</li>
+<li>Add a tab in the Tutorials page, where you can click on either Repairing Tutorials, Repurposing Tutorials and Gifting Tutorials. When the user clicks on the tab they would like to view at the top of the page, they would be brought to the section of the page where they can watch the tutorials they need.</li>
+<li>Add a scroll up button at the bottom of the screen on the Tutorials page so the user can be scrolled up with a click of a button instead of having to scroll up manually themselves.</li>
+<li>Create a 404 error page.</li>
 <li>Fix all bugs and Performance rating that I couldn't fix due to time restraint.</li>
 <ul>
 
